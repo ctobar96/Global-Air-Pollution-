@@ -6,19 +6,20 @@
 
 ## 📌 Descripción
 
-En este proyecto se implementara  un análisis exautivo  de  ETL (Extract, Transform, Load) de los datos del dataset [Global Air Pollution][kaggle] de Kaggle, de igual manrea se raliza una regresion linela de los datos, con el bojetivo de determinar la relaxion de los datos. 
+En este proyecto se llevará a cabo un análisis exhaustivo de ETL (Extract, Transform, Load) utilizando los datos del conjunto de datos [Global Air Pollution][kaggle] disponible en Kaggle. Además, se realizará una regresión lineal sobre los datos con el objetivo de identificar la relación entre las distintas variables y la calidad del aire.
 
-El Global Air Pollution Dataset es un conjunto de datos que proporciona información sobre la calidad del aire en diversas ciudades y países del mundo. Contiene métricas clave como el Índice de Calidad del Aire (AQI) y las concentraciones de contaminantes como CO, NO2, O3 y PM2.5
+El Global Air Pollution Dataset proporciona información detallada sobre la calidad del aire en múltiples ciudades y países alrededor del mundo. Incluye métricas clave como el Índice de Calidad del Aire (AQI) y las concentraciones de contaminantes como CO (Monóxido de carbono), NO2 (Dióxido de nitrógeno), O3 (Ozono) y PM2.5 (Material particulado fino).
 
-Cada registro en este conjunto de datos representa las concentraciones de estos contaminantes en una ciudad en particular, proporcionando una clasificación de la calidad del aire que puede ser: 
+Cada registro en el conjunto de datos representa las concentraciones de estos contaminantes en una ciudad específica, permitiendo una clasificación de la calidad del aire en diferentes categorías, como:
 
-- Buena
-- Moderada
-- Dañina para Grupos Sensibles
-- Dañina
-- Muy Dañina
-- Peligrosa
+- Buena (niveles bajos de contaminación)
+- Moderada (contaminación perceptible, pero dentro de rangos aceptables)
+- Perjudicial para grupos sensibles (afectación a personas con problemas de salud)
+- Perjudicial para la salud (niveles altos de contaminación con efectos adversos)
+- Muy perjudicial (riesgo significativo para la población)
+- Peligroso (niveles extremos de contaminación que requieren medidas urgentes)
 
+Este análisis permitirá comprender tendencias y patrones de contaminación, facilitando la toma de decisiones en políticas ambientales y estrategias de mitigación. 🚀
 [kaggle]: https://www.kaggle.com/datasets/hasibalmuzdadid/global-air-pollution-dataset
 
 ## 📊 Conjunto de Datos
